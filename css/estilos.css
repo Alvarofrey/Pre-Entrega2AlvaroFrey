@@ -1,0 +1,382 @@
+body {
+    background-color: rgba(255, 255, 255, 0.952);
+
+}
+
+.dropdown-menu-dark {
+    background-color: #ff6913;
+
+}
+
+.desodorantes_1,
+.jabones_1,
+.perfume_1,
+.cremas_1,
+.shampoo_1 {
+    color: black;
+    font-size: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main__margin {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    margin: 30px;
+}
+
+.carrito__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+
+
+}
+
+.div__logo {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6913;
+    text-align: center;
+
+
+}
+
+.flex_imagen_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.img__logo {
+    text-align: center;
+    width: 150px;
+
+}
+
+.enviosgratis {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.comprar {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.menu__ {
+    padding-top: 50px;
+
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+
+}
+
+*/ header nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+header nav ul li ul {
+    margin-left: 15px;
+    display: none;
+    position: absolute;
+}
+
+header nav ul li:hover ul {
+    display: block;
+}
+
+*/ .boton__enviar__e {
+    background-color: black;
+    border-radius: 18px;
+    font-family: Arial;
+    color: #f80202;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* .img__footer {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+/* #banner {
+    height: 200vh;
+    background-image: url(../img/baner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+*/ .contacto {
+    margin: 5px 20px;
+}
+
+#label__consultas {
+    vertical-align: top;
+}
+
+.padin__consultas {
+    padding-top: 20px;
+}
+
+/* 2 colores en el main de productos
+.gradiant {
+    background-image: linear-gradient(green, gray);
+} */
+
+
+
+.divproductos,
+.div__ofertas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.imgproducto,
+.imagenes {
+    height: 100px;
+}
+
+
+.estilocarrito {
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.tipo-producto {
+    color: #ff6913;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tipo_contactenos {
+    color: black;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+
+.estiloofertas {
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 60px;
+
+}
+
+
+.boton__comprar,
+.boton__eliminar,
+.boton__sumar,
+.boton__pagar,
+.boton__enviar__e,
+.boton_finalizar {
+    text-align: center;
+    background-color: #ff6913;
+    border-radius: 18px;
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+
+}
+
+.precioanterior {
+    text-decoration: line-through;
+}
+
+
+
+
+/*  */
+@keyframes gift {
+
+    45% {
+        background-color: #27726c;
+    }
+
+}
+
+.gift {
+    animation-name: gift;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+
+
+.nav_ofertas,
+.nav_contacto,
+.nav_carrito,
+.nav_productos,
+.nav_inicio,
+.menu_nav {
+    color: black;
+    font-size: 35px;
+}
+
+
+.Vendido_producto {
+    color: #ff6913;
+    font-size: 25px;
+}
+
+.pad_form_pagar {
+    padding-top: 88px;
+}
+
+.pad_footer {
+    padding-top: 50px;
+}
+
+.animate__tada {
+    animation-iteration-count: infinite;
+    /* --animate-duration: 2s; */
+}
+
+.img_fondo_footer {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    white-space: 2px;
+}
+
+.gradiante_footer {
+    background-color: #ff6913;
+}
+
+.flex_footer_pimg {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_p_footer {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.img_notesteo {
+    width: 80px;
+}
+
+.img_whats {
+    width: 30px;
+    border-radius: 3cm;
+}
+
+.img_instagram {
+    width: 30px;
+    border-radius: 3cm;
+}
+
+.img_facebook {
+    width: 30px;
+    border-radius: 3cm;
+
+}
+
+.flex_entregado {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.div__padding {
+    padding-top: 50px;
+}
+
+.borde_card_jabon {
+    background-color: rgba(167, 167, 167, 0.514);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    border-spacing: 30px 30px;
+    border: 5px solid rgba(161, 161, 161, 0.281);
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 23px;
+}
+
+.link_numerotel {
+    background-color: white;
+    color: black;
+    font-size: 23px;
+}
+
+.divdebotonesjs {
+    text-align: center;
+
+}
+
+.btn__lista {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: left;
+    background-color: #ff6913;
+    border-radius: 18px;
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.btn__buscar {
+
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+}
